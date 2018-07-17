@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+    <div class="row" style="display: flex;flex-wrap: wrap;">
+<% query["hits"].forEach(function(query){ %>
+   <div class="col-md-3 col-sm-6">
+       <div class="img-thumbnail">
+           <a href="<%=query.largeImageURL %>"><img style="width: 304px;height: 243px;" src="<%=query.webformatURL %>"></a>
+       </div>
+   </div>
+<% }); %>
+</div>
+<% include partials/footer %>
