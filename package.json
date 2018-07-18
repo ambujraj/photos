@@ -1,6 +1,6 @@
 {
   "name": "photos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A place for copyright free image stocks",
   "main": "app.js",
   "scripts": {
